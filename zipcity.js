@@ -210637,9 +210637,9 @@ let zipcity = {
 
     _.foldl(datas, function($container, data) {
       return $container.append(function() {
-        let $li = $('<li><a class="city">'+data.zipCode+'</a></li>');
+        let $li = $('<li><a class="city">'+data.zipCode+' - '+data.city+'</a></li>');
 
-        $li.data('zipcode', data.zipcode)
+        $li.data('zipcode', data.zipCode)
         $li.off('click').on('click', function(e) {
           e.preventDefault();
           zipcity.selectItem($li.data('zipcode'), $zcInput);

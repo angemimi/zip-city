@@ -1,5 +1,7 @@
 # Recherche de code postaux ou de ville
 
+Le fichier utile pour votre projet est zipcity.js
+
 ## Prérequis :
 Utiliser jquery et underscore. Les deux framework sont présent dans le projet.
 
